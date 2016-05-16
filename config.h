@@ -63,7 +63,7 @@ static unsigned int cursorthickness = 2;
 static int bellvolume = 0;
 
 /* default TERM value */
-static char termname[] = "st-256color";
+static char termname[] = "rxvt-256color";
 
 static unsigned int tabspaces = 8;
 
@@ -87,7 +87,7 @@ static const char *colorname[] = {
 	"#8197BF",
 	"#C6B6EE",
 	"#8FBFDC",
-	"#E8E8D3",
+	"#D1D1D1",
 
 	[255] = 0,
 
@@ -101,7 +101,7 @@ static const char *colorname[] = {
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-static unsigned int defaultfg = 7;
+static unsigned int defaultfg = 15;
 static unsigned int defaultbg = 0;
 static unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
